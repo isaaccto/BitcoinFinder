@@ -31,7 +31,8 @@
 
 ### Features
 * Generate wallets
-* Check if the wallet contain Bitcoin.
+* Check if the wallet contain Bitcoin
+* Threading system
 * Free
 
 ---------------------------------------
