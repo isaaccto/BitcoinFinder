@@ -11,8 +11,8 @@
   
 <br/>
 <div align="center">
-  <a href="https://github.com/dropout1337/Discord-Mass-DM">
-    <img src="https://i.imgur.com/9l4pHEN.png" alt="Logo" width="120" height="120">
+  <a href="https://github.com/nepalcto/BitcoinFinder">
+    <img src="https://getbacktothe.kitchen/oLQHqW1RNB.png?key=zVey845z1Dh5iK" alt="Logo" width="120" height="120">
   </a>
   
   <h2 align="center">Discord Mass DM</h3>
