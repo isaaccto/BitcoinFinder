@@ -12,7 +12,7 @@
 <br/>
 <div align="center">
   <a href="https://github.com/nepalcto/BitcoinFinder">
-    <img src="https://getbacktothe.kitchen/oLQHqW1RNB.png?key=zVey845z1Dh5iK" alt="Logo" <!--width="120" height="120"-->>
+    <img src="https://getbacktothe.kitchen/oLQHqW1RNB.png?key=zVey845z1Dh5iK" alt="Logo" <!--width="120" height="120"-->
   </a>
   
   <h2 align="center">Discord Mass DM</h3>
