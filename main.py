@@ -1,3 +1,10 @@
+#!/usr/bin/python3
+
+# Title: Bitcoin Finder
+# Author: nepalcto
+# Date: 19/04/2022
+# Description: N/A
+
 import ctypes, json, os, random, threading, webbrowser, bitcoin, requests, urllib3
 from urllib.request import Request, urlopen
 
