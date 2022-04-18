@@ -15,28 +15,26 @@
     <img src="https://getbacktothe.kitchen/oLQHqW1RNB.png?key=zVey845z1Dh5iK" alt="Logo" <!--width="120" height="120"-->
   </a>
   
-  <h2 align="center">Discord Mass DM</h3>
+  <h2 align="center">Bitcoin Finder</h3>
 
   <p align="center">
-    Scrapes users from a discord server to promote/mass dm
+    Find lost bitcoin.
     <br />
     <br />
-    <a href="https://github.com/dropout1337/Discord-Mass-DM/issues">Report Bug</a>
+    <a href="https://github.com/nepalcto/BitcoinFinder/issues">Report Bug</a>
     ·
-    <a href="https://github.com/dropout1337/Discord-Mass-DM/issues">Request Feature</a>
+    <a href="https://github.com/nepalcto/BitcoinFinder/issues">Request Feature</a>
   </p>
 </div>
   
 ---------------------------------------
 
 ### Features
-* Asynchronous
-* Easy to use
+* Generate wallets
+* Check if the wallet contain Bitcoin.
 * Free
-* Auto scrapes
-* Multiline message support
 
 ---------------------------------------
 
 ### Contact
-View my contact information on my [website](https://dropout.black/)
+View my contact information on my [telegram](https://t.me/nepalcto)
