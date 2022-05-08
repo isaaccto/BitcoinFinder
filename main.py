@@ -2,7 +2,7 @@
 
 # Title: Bitcoin Finder
 # Author: nepalcto
-# Date: 08/05/2022
+# Date: 19/04/2022
 # Description: N/A
 
 import bitcoin
@@ -39,7 +39,7 @@ def run_wal():
         y = json.loads(rk)
 
         for v in y:
-            balance = y["final_balance"]
+            balance = y[bitcoin.pubkey_to_address(public_key)]["final_balance"]
 
         a = f"\n\n      Address: {bitcoin.pubkey_to_address(public_key)}\n      Private Key: {private_key}\n      Balance: {balance}\n"
         print(a)
@@ -88,6 +88,5 @@ def a():
             input()
     except BaseException:
         a()
-
 
 a()
