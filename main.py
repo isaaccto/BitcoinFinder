@@ -5,8 +5,11 @@
 # Date: 19/04/2022
 # Description: N/A
 
-import ctypes, json, os, random, threading, webbrowser, bitcoin, requests, urllib3
-from urllib.request import Request, urlopen
+import bitcoin
+import ctypes
+import json
+import requests
+import threading
 
 checked_wallet, wallet_without_balance, wallet_with_balance, = (
     0,
@@ -26,7 +29,7 @@ def run_wal():
             decoded_private_key = bitcoin.decode_privkey(private_key, "hex")
             valid_private_key = 0 < decoded_private_key < bitcoin.N
 
-        wif_encoded_private_key = bitcoin.encode_privkey(decoded_private_key, "wif")
+        bitcoin.encode_privkey(decoded_private_key, "wif")
         public_key = bitcoin.fast_multiply(bitcoin.G, decoded_private_key)
 
         rk = requests.get(
@@ -77,7 +80,6 @@ def a():
     try:
         t = int(input("How many threads?: "))
         try:
-            threads = []
             for i in range(t):
                 t = threading.Thread(target=run_wal)
                 t.start()
