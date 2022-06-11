@@ -34,8 +34,3 @@
 * Check wallet balance
 * Threading
 * Free
-
----------------------------------------
-
-### Contact
-View my contact information on my [telegram](https://t.me/nepalcto)
