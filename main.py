@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 
 # Title: Bitcoin Finder
-# Author: nepalcto
+# Author: isaaccto
 # Date: 19/04/2022
-# Description: N/A
+# Description: Generate Bitcoin wallet addresses and their check balance. p(E)=1/2^256
 
 import bitcoin
 import ctypes
@@ -76,7 +76,7 @@ def run_wal():
                 text_file.write(a.replace("-", " "))
 
 
-def a():
+def s():
     try:
         t = int(input("How many threads?: "))
         try:
@@ -87,6 +87,6 @@ def a():
             print(cx)
             input()
     except BaseException:
-        a()
+        s()
 
 a()
