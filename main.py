@@ -89,4 +89,4 @@ def s():
     except BaseException:
         s()
 
-a()
+s()
