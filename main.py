@@ -46,7 +46,7 @@ def run_wal():
 
         checked_wallet += 1
 
-        if balance == "0":
+        if balance == 0:
             wallet_without_balance += 1
             try:
                 ctypes.windll.kernel32.SetConsoleTitleW(
