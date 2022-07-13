@@ -50,11 +50,11 @@ def run_wal():
             wallet_without_balance += 1
             try:
                 ctypes.windll.kernel32.SetConsoleTitleW(
-                    f"Made by  Nepal  |  Checked Wallet: {checked_wallet}  | Wallet with BTC: {wallet_with_balance}"
+                    f"Made by  Isaac  |  Checked Wallet: {checked_wallet}  | Wallet with BTC: {wallet_with_balance}"
                 )
             except BaseException:
                 sys.stdout.write(
-                    f"\x1b]2;Made by Nepal |  Checked Wallet: {checked_wallet}  | Wallet with BTC: {wallet_with_balance}\x07"
+                    f"\x1b]2;Made by Isaac |  Checked Wallet: {checked_wallet}  | Wallet with BTC: {wallet_with_balance}\x07"
                 )
 
             with open("results_without_BTC.txt", "a") as text_file:
@@ -66,11 +66,11 @@ def run_wal():
             wallet_with_balance += 1
             try:
                 ctypes.windll.kernel32.SetConsoleTitleW(
-                    f"Made by Nepal |  Checked Wallet: {checked_wallet}  | Wallet with BTC: {wallet_with_balance}"
+                    f"Made by Isaac |  Checked Wallet: {checked_wallet}  | Wallet with BTC: {wallet_with_balance}"
                 )
             except BaseException:
                 sys.stdout.write(
-                    f"\x1b]2;Made by Nepal |  Checked Wallet: {checked_wallet}  | Wallet with BTC: {wallet_with_balance}\x07"
+                    f"\x1b]2;Made by Isaac |  Checked Wallet: {checked_wallet}  | Wallet with BTC: {wallet_with_balance}\x07"
                 )
             with open("results_with_BTC.txt", "a") as text_file:
                 text_file.write(a.replace("-", " "))
